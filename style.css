@@ -1,0 +1,22 @@
+#title {text-align: center;}
+
+#description {text-align: center;}
+
+#survey-form {
+  display: block;
+  text-align: center;
+}
+
+#name-label {}
+
+#name {}
+
+#email-label {}
+
+#email {}
+
+#number-label {}
+
+#number {}
+
+#dropdowm {}
