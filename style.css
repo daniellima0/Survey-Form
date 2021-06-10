@@ -1,4 +1,15 @@
 /* tags */
+
+/* Query: how to put a transparent solid color on top of an image? */
+html {
+  /* background-color: rgba(27,27,50,0.9); */
+  background-image: url('wallpaper.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
 div {
   display: flex;
   flex-direction: column;
@@ -10,16 +21,18 @@ label {
   color: white;
 }
 
-/* ------ */
+/* --------------------------------------------------- */
 
 #title {
   text-align: center;
+  color: white;
   line-height: 1.2;
   font-weight: 400;
 }
 
 #description {
   text-align: center;
+  color: white;
   font-style: italic;
   font-weight: 200;
   line-height: 1.4;
@@ -40,6 +53,12 @@ label {
   font-weight: 400;
   background-color: rgba(27,27,50,0.9);
   padding: 20px 20px 20px 20px;
+}
+
+.thin-red-border {
+  border-color: red;
+  border-width: 5px;
+  border-style: solid;
 }
 
 #name-label {}
@@ -72,8 +91,8 @@ label {
   color: white;
 }
 
-/* NOTES: 
-- Adjust amount of space in text inputs and dropdowns 
-- Adjust space between title and description
-- Figure out how to put an image like in the original survey form
+/* Query:
+- How to put a transparent solid color on top of an image?
+- How to adjust amount of space in text inputs and dropdowns 
+- How to adjust space between title and description
 */
