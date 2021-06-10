@@ -1,10 +1,45 @@
-#title {text-align: center;}
+/* tags */
+div {
+  display: flex;
+  flex-direction: column;
+  padding: 8px 10px 8px 10px;
+}
 
-#description {text-align: center;}
+label {
+  padding: 0px 0px 10px 0px;
+  color: white;
+}
+
+/* ------ */
+
+#title {
+  text-align: center;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+#description {
+  text-align: center;
+  font-style: italic;
+  font-weight: 200;
+  line-height: 1.4;
+}
+
+#container {
+  margin: auto;
+  width: 35%;
+  height: auto;
+  padding: 10px;
+}
 
 #survey-form {
   display: block;
-  text-align: center;
+  text-align: left;
+  font-family:'Poppins', sans-serif;
+  line-height: 1.4;
+  font-weight: 400;
+  background-color: rgba(27,27,50,0.9);
+  padding: 20px 20px 20px 20px;
 }
 
 #name-label {}
@@ -19,4 +54,26 @@
 
 #number {}
 
-#dropdowm {}
+#dropdowm {
+  font-size: 20px;
+  padding: 8px 8px 8px 8px;
+}
+
+#additional-comments {
+  height: 100px;
+  padding: 8px 0px 0px 8px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+
+#submit {
+  padding: 12px 0px 12px 0px;
+  background-color: #37af65;
+  color: white;
+}
+
+/* NOTES: 
+- Adjust amount of space in text inputs and dropdowns 
+- Adjust space between title and description
+- Figure out how to put an image like in the original survey form
+*/
