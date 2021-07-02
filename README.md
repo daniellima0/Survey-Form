@@ -8,4 +8,4 @@ available on [FreeCodeCamp](https://www.freecodecamp.org/) Responsive Web Design
 
 ## Visualize WebPage
 
-This project is hosted in my GitHub Pages and you can access it [in here](https://daniellima0.github.io/personal-portfolio/).
+This project is hosted in my GitHub Pages and you can access it [in here](https://daniellima0.github.io/survey-form/).
